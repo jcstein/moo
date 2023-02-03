@@ -12,9 +12,9 @@ Then, you will need to connect your Ethereum wallet below to the Ethermint Sover
 
 ## Nice, what's going on under the hood?
 
-This GM Portal is built with [Celestia](https://celestia.org), [RollKit](https://rollkit.dev), & [Ethermint](https://github.com/celestiaorg/ethermint).
+Say Moo dot LOL is built with [Celestia](https://celestia.org), [RollKit](https://rollkit.dev), & [Ethermint](https://github.com/celestiaorg/ethermint).
 
-The GM Portal is a smart contract demo on a [sovereign rollup](https://celestia.org/glossary/sovereign-rollup) built on Celestia to provide [data availability](https://celestia.org/glossary/data-availability) and [consensus](https://ethereum.org/en/developers/docs/consensus-mechanisms), leveraging Ethermint with RollKit as the [execution environment](https://celestia.org/glossary/execution-environment).
+Say Moo is a smart contract demo on a [sovereign rollup](https://celestia.org/glossary/sovereign-rollup) built on Celestia to provide [data availability](https://celestia.org/glossary/data-availability) and [consensus](https://ethereum.org/en/developers/docs/consensus-mechanisms), leveraging Ethermint with RollKit as the [execution environment](https://celestia.org/glossary/execution-environment).
 
 This allows users to securely create and share Moos on the blockchain without the need for a centralized server or authority.
 
