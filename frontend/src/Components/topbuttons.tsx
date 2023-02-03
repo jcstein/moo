@@ -8,7 +8,7 @@ export const Topbuttons = () => {
     <Flex align="center" justify="end">
       <HStack pt="3" pr="5">
       <IconButton
-          onClick={() => window.open("https://github.com/jcstein/gm-portal", "_blank")}
+          onClick={() => window.open("https://github.com/jcstein/moo", "_blank")}
         aria-label={`Switch from ${colorMode} mode`}
         >
           {<FaGithub />}

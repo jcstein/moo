@@ -33,7 +33,7 @@ cd moo/frontend
 yarn
 
 # Develop site locally
-yarn build
+yarn dev
 ```
 
 ## Adding your contributions
