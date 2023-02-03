@@ -1,0 +1,1315 @@
+{
+  "abi": [
+    {
+      "inputs": [],
+      "stateMutability": "nonpayable",
+      "type": "constructor"
+    },
+    {
+      "anonymous": false,
+      "inputs": [
+        {
+          "indexed": true,
+          "internalType": "address",
+          "name": "from",
+          "type": "address"
+        },
+        {
+          "indexed": false,
+          "internalType": "uint256",
+          "name": "timestamp",
+          "type": "uint256"
+        }
+      ],
+      "name": "NewWave",
+      "type": "event"
+    },
+    {
+      "inputs": [],
+      "name": "getAllWaves",
+      "outputs": [
+        {
+          "components": [
+            {
+              "internalType": "address",
+              "name": "waver",
+              "type": "address"
+            },
+            {
+              "internalType": "uint256",
+              "name": "timestamp",
+              "type": "uint256"
+            }
+          ],
+          "internalType": "struct WavePortal.Wave[]",
+          "name": "",
+          "type": "tuple[]"
+        }
+      ],
+      "stateMutability": "view",
+      "type": "function"
+    },
+    {
+      "inputs": [],
+      "name": "getTotalWaves",
+      "outputs": [
+        {
+          "internalType": "uint256",
+          "name": "",
+          "type": "uint256"
+        }
+      ],
+      "stateMutability": "view",
+      "type": "function"
+    },
+    {
+      "inputs": [],
+      "name": "wave",
+      "outputs": [],
+      "stateMutability": "nonpayable",
+      "type": "function"
+    }
+  ],
+  "bytecode": {
+    "object": "0x608060405234801561001057600080fd5b506100596040518060400160405280601881526020017f4920414d20534d41525420434f4e54524143542e20474d2e000000000000000081525061005e60201b6102481760201c565b610117565b6100a58160405160240161007291906100c9565b60408051601f198184030181529190526020810180516001600160e01b0390811663104c13eb60e21b179091526100a816565b50565b80516a636f6e736f6c652e6c6f67602083016000808483855afa5050505050565b600060208083528351808285015260005b818110156100f6578581018301518582016040015282016100da565b506000604082860101526040601f19601f8301168501019250505092915050565b61049a806101266000396000f3fe608060405234801561001057600080fd5b50600436106100415760003560e01c80636fe15b44146100465780639a2cdc0814610050578063bd43a9081461006b575b600080fd5b61004e610080565b005b610058610189565b6040519081526020015b60405180910390f35b6100736101d3565b6040516100629190610339565b60016000808282546100929190610391565b9091555050604080518082019091526008815267095cc81dd85d995960c21b60208201526100c0903361028e565b6040805180820182523380825242602080840182815260018054808201825560009190915294517fb10e2d527612073b26eecdfd717e6a320cf44b4afac2b0732d9fcbe2b7fa0cf6600290960295860180546001600160a01b0319166001600160a01b03909216919091179055517fb10e2d527612073b26eecdfd717e6a320cf44b4afac2b0732d9fcbe2b7fa0cf7909401939093559251928352917fd4039eae27a8bdb2161befb9f8627b7c1427c2515e32d699b7dc252416e719cd910160405180910390a2565b60006101cc6040518060400160405280601781526020017f5765206861766520256420746f74616c207761766573210000000000000000008152506000546102d7565b5060005490565b60606001805480602002602001604051908101604052809291908181526020016000905b8282101561023f576000848152602090819020604080518082019091526002850290910180546001600160a01b031682526001908101548284015290835290920191016101f7565b50505050905090565b61028b8160405160240161025c91906103fe565b60408051601f198184030181529190526020810180516001600160e01b031663104c13eb60e21b179052610318565b50565b6102d382826040516024016102a4929190610418565b60408051601f198184030181529190526020810180516001600160e01b031663319af33360e01b179052610318565b5050565b6102d382826040516024016102ed929190610442565b60408051601f198184030181529190526020810180516001600160e01b03166309710a9d60e41b1790525b80516a636f6e736f6c652e6c6f67602083016000808483855afa5050505050565b602080825282518282018190526000919060409081850190868401855b8281101561038457815180516001600160a01b03168552860151868501529284019290850190600101610356565b5091979650505050505050565b808201808211156103b257634e487b7160e01b600052601160045260246000fd5b92915050565b6000815180845260005b818110156103de576020818501810151868301820152016103c2565b506000602082860101526020601f19601f83011685010191505092915050565b60208152600061041160208301846103b8565b9392505050565b60408152600061042b60408301856103b8565b905060018060a01b03831660208301529392505050565b60408152600061045560408301856103b8565b9050826020830152939250505056fea2646970667358221220200b91a82bf6d6469a72dad50564d2fbd7eaf777409813b1bcdd52137e1c351f64736f6c63430008110033",
+    "sourceMap": "107:808:16:-:0;;;385:70;;;;;;;;;;409:39;;;;;;;;;;;;;;;;;;:11;;;;;:39;;:::i;:::-;107:808;;5630:121:13;5685:59;5740:2;5701:42;;;;;;;;:::i;:::-;;;;-1:-1:-1;;5701:42:13;;;;;;;;;;;;;;-1:-1:-1;;;;;5701:42:13;;;-1:-1:-1;;;5701:42:13;;;;5685:15;:59;:::i;:::-;5630:121;:::o;181:376::-;275:14;;131:42;448:2;435:16;;251:21;;275:14;435:16;131:42;484:5;473:68;464:77;;401:150;;181:376;:::o;14:548:18:-;126:4;155:2;184;173:9;166:21;216:6;210:13;259:6;254:2;243:9;239:18;232:34;284:1;294:140;308:6;305:1;302:13;294:140;;;403:14;;;399:23;;393:30;369:17;;;388:2;365:26;358:66;323:10;;294:140;;;298:3;483:1;478:2;469:6;458:9;454:22;450:31;443:42;553:2;546;542:7;537:2;529:6;525:15;521:29;510:9;506:45;502:54;494:62;;;;14:548;;;;:::o;:::-;107:808:16;;;;;;",
+    "linkReferences": {}
+  },
+  "deployedBytecode": {
+    "object": "0x608060405234801561001057600080fd5b50600436106100415760003560e01c80636fe15b44146100465780639a2cdc0814610050578063bd43a9081461006b575b600080fd5b61004e610080565b005b610058610189565b6040519081526020015b60405180910390f35b6100736101d3565b6040516100629190610339565b60016000808282546100929190610391565b9091555050604080518082019091526008815267095cc81dd85d995960c21b60208201526100c0903361028e565b6040805180820182523380825242602080840182815260018054808201825560009190915294517fb10e2d527612073b26eecdfd717e6a320cf44b4afac2b0732d9fcbe2b7fa0cf6600290960295860180546001600160a01b0319166001600160a01b03909216919091179055517fb10e2d527612073b26eecdfd717e6a320cf44b4afac2b0732d9fcbe2b7fa0cf7909401939093559251928352917fd4039eae27a8bdb2161befb9f8627b7c1427c2515e32d699b7dc252416e719cd910160405180910390a2565b60006101cc6040518060400160405280601781526020017f5765206861766520256420746f74616c207761766573210000000000000000008152506000546102d7565b5060005490565b60606001805480602002602001604051908101604052809291908181526020016000905b8282101561023f576000848152602090819020604080518082019091526002850290910180546001600160a01b031682526001908101548284015290835290920191016101f7565b50505050905090565b61028b8160405160240161025c91906103fe565b60408051601f198184030181529190526020810180516001600160e01b031663104c13eb60e21b179052610318565b50565b6102d382826040516024016102a4929190610418565b60408051601f198184030181529190526020810180516001600160e01b031663319af33360e01b179052610318565b5050565b6102d382826040516024016102ed929190610442565b60408051601f198184030181529190526020810180516001600160e01b03166309710a9d60e41b1790525b80516a636f6e736f6c652e6c6f67602083016000808483855afa5050505050565b602080825282518282018190526000919060409081850190868401855b8281101561038457815180516001600160a01b03168552860151868501529284019290850190600101610356565b5091979650505050505050565b808201808211156103b257634e487b7160e01b600052601160045260246000fd5b92915050565b6000815180845260005b818110156103de576020818501810151868301820152016103c2565b506000602082860101526020601f19601f83011685010191505092915050565b60208152600061041160208301846103b8565b9392505050565b60408152600061042b60408301856103b8565b905060018060a01b03831660208301529392505050565b60408152600061045560408301856103b8565b9050826020830152939250505056fea2646970667358221220200b91a82bf6d6469a72dad50564d2fbd7eaf777409813b1bcdd52137e1c351f64736f6c63430008110033",
+    "sourceMap": "107:808:16:-:0;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;460:206;;;:::i;:::-;;764:149;;;:::i;:::-;;;160:25:18;;;148:2;133:18;764:149:16;;;;;;;;671:88;;;:::i;:::-;;;;;;;:::i;460:206::-;507:1;493:10;;:15;;;;;;;:::i;:::-;;;;-1:-1:-1;;518:35:16;;;;;;;;;;;;-1:-1:-1;;;518:35:16;;;;;;542:10;518:11;:35::i;:::-;574:33;;;;;;;;579:10;574:33;;;591:15;574:33;;;;;;;563:5;:45;;;;;;;-1:-1:-1;563:45:16;;;;;;;;;;;;;;;;-1:-1:-1;;;;;;563:45:16;-1:-1:-1;;;;;563:45:16;;;;;;;;;;;;;;;;;;623:36;;160:25:18;;;579:10:16;623:36;;133:18:18;623:36:16;;;;;;;460:206::o;764:149::-;810:7;829:50;;;;;;;;;;;;;;;;;;868:10;;829:11;:50::i;:::-;-1:-1:-1;896:10:16;;;764:149::o;671:88::-;715:13;747:5;740:12;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;-1:-1:-1;;;;;740:12:16;;;;;;;;;;;;;;;;;;;;;;;;;;;;;671:88;:::o;5630:121:13:-;5685:59;5740:2;5701:42;;;;;;;;:::i;:::-;;;;-1:-1:-1;;5701:42:13;;;;;;;;;;;;;;-1:-1:-1;;;;;5701:42:13;-1:-1:-1;;;5701:42:13;;;5685:15;:59::i;:::-;5630:121;:::o;6994:145::-;7061:71;7124:2;7128;7077:54;;;;;;;;;:::i;:::-;;;;-1:-1:-1;;7077:54:13;;;;;;;;;;;;;;-1:-1:-1;;;;;7077:54:13;-1:-1:-1;;;7077:54:13;;;7061:15;:71::i;:::-;6994:145;;:::o;6548:139::-;6612:68;6672:2;6676;6628:51;;;;;;;;;:::i;:::-;;;;-1:-1:-1;;6628:51:13;;;;;;;;;;;;;;-1:-1:-1;;;;;6628:51:13;-1:-1:-1;;;6628:51:13;;;181:376;275:14;;131:42;448:2;435:16;;251:21;;275:14;435:16;131:42;484:5;473:68;464:77;;401:150;;181:376;:::o;196:810:18:-;413:2;465:21;;;535:13;;438:18;;;557:22;;;384:4;;413:2;598;;616:18;;;;657:15;;;384:4;700:280;714:6;711:1;708:13;700:280;;;773:13;;815:9;;-1:-1:-1;;;;;811:35:18;799:48;;887:11;;881:18;867:12;;;860:40;920:12;;;;955:15;;;;843:1;729:9;700:280;;;-1:-1:-1;997:3:18;;196:810;-1:-1:-1;;;;;;;196:810:18:o;1011:222::-;1076:9;;;1097:10;;;1094:133;;;1149:10;1144:3;1140:20;1137:1;1130:31;1184:4;1181:1;1174:15;1212:4;1209:1;1202:15;1094:133;1011:222;;;;:::o;1238:423::-;1280:3;1318:5;1312:12;1345:6;1340:3;1333:19;1370:1;1380:162;1394:6;1391:1;1388:13;1380:162;;;1456:4;1512:13;;;1508:22;;1502:29;1484:11;;;1480:20;;1473:59;1409:12;1380:162;;;1384:3;1587:1;1580:4;1571:6;1566:3;1562:16;1558:27;1551:38;1650:4;1643:2;1639:7;1634:2;1626:6;1622:15;1618:29;1613:3;1609:39;1605:50;1598:57;;;1238:423;;;;:::o;1666:220::-;1815:2;1804:9;1797:21;1778:4;1835:45;1876:2;1865:9;1861:18;1853:6;1835:45;:::i;:::-;1827:53;1666:220;-1:-1:-1;;;1666:220:18:o;1891:317::-;2068:2;2057:9;2050:21;2031:4;2088:45;2129:2;2118:9;2114:18;2106:6;2088:45;:::i;:::-;2080:53;;2198:1;2194;2189:3;2185:11;2181:19;2173:6;2169:32;2164:2;2153:9;2149:18;2142:60;1891:317;;;;;:::o;2213:291::-;2390:2;2379:9;2372:21;2353:4;2410:45;2451:2;2440:9;2436:18;2428:6;2410:45;:::i;:::-;2402:53;;2491:6;2486:2;2475:9;2471:18;2464:34;2213:291;;;;;:::o",
+    "linkReferences": {}
+  },
+  "methodIdentifiers": {
+    "getAllWaves()": "bd43a908",
+    "getTotalWaves()": "9a2cdc08",
+    "wave()": "6fe15b44"
+  },
+  "rawMetadata": "{\"compiler\":{\"version\":\"0.8.17+commit.8df45f5f\"},\"language\":\"Solidity\",\"output\":{\"abi\":[{\"inputs\":[],\"stateMutability\":\"nonpayable\",\"type\":\"constructor\"},{\"anonymous\":false,\"inputs\":[{\"indexed\":true,\"internalType\":\"address\",\"name\":\"from\",\"type\":\"address\"},{\"indexed\":false,\"internalType\":\"uint256\",\"name\":\"timestamp\",\"type\":\"uint256\"}],\"name\":\"NewWave\",\"type\":\"event\"},{\"inputs\":[],\"name\":\"getAllWaves\",\"outputs\":[{\"components\":[{\"internalType\":\"address\",\"name\":\"waver\",\"type\":\"address\"},{\"internalType\":\"uint256\",\"name\":\"timestamp\",\"type\":\"uint256\"}],\"internalType\":\"struct WavePortal.Wave[]\",\"name\":\"\",\"type\":\"tuple[]\"}],\"stateMutability\":\"view\",\"type\":\"function\"},{\"inputs\":[],\"name\":\"getTotalWaves\",\"outputs\":[{\"internalType\":\"uint256\",\"name\":\"\",\"type\":\"uint256\"}],\"stateMutability\":\"view\",\"type\":\"function\"},{\"inputs\":[],\"name\":\"wave\",\"outputs\":[],\"stateMutability\":\"nonpayable\",\"type\":\"function\"}],\"devdoc\":{\"kind\":\"dev\",\"methods\":{},\"version\":1},\"userdoc\":{\"kind\":\"user\",\"methods\":{},\"version\":1}},\"settings\":{\"compilationTarget\":{\"src/WavePortal.sol\":\"WavePortal\"},\"evmVersion\":\"london\",\"libraries\":{},\"metadata\":{\"bytecodeHash\":\"ipfs\"},\"optimizer\":{\"enabled\":true,\"runs\":200},\"remappings\":[\":ds-test/=lib/forge-std/lib/ds-test/src/\",\":forge-std/=lib/forge-std/src/\"]},\"sources\":{\"lib/forge-std/src/console.sol\":{\"keccak256\":\"0x91d5413c2434ca58fd278b6e1e79fd98d10c83931cc2596a6038eee4daeb34ba\",\"license\":\"MIT\",\"urls\":[\"bzz-raw://91ccea707361e48b9b7a161fe81f496b9932bc471e9c4e4e1e9c283f2453cc70\",\"dweb:/ipfs/QmcB66sZhQ6Kz7MUHcLE78YXRUZxoZnnxZjN6yATsbB2ec\"]},\"src/WavePortal.sol\":{\"keccak256\":\"0xa8a933e67003866f29868fcf20c555bc4b7dde2e060dd7361cd0950da07831b6\",\"license\":\"UNLICENSED\",\"urls\":[\"bzz-raw://2a49906260d4aa2cac137ab6a1f4fe071be00c00456d8de8945d292034437202\",\"dweb:/ipfs/QmPUWKEYqVkC3WFNwv4ngXDYcrFgXAbB1zYb1GzN75NK8r\"]}},\"version\":1}",
+  "metadata": {
+    "compiler": {
+      "version": "0.8.17+commit.8df45f5f"
+    },
+    "language": "Solidity",
+    "output": {
+      "abi": [
+        {
+          "inputs": [],
+          "stateMutability": "nonpayable",
+          "type": "constructor"
+        },
+        {
+          "inputs": [
+            {
+              "internalType": "address",
+              "name": "from",
+              "type": "address",
+              "indexed": true
+            },
+            {
+              "internalType": "uint256",
+              "name": "timestamp",
+              "type": "uint256",
+              "indexed": false
+            }
+          ],
+          "type": "event",
+          "name": "NewWave",
+          "anonymous": false
+        },
+        {
+          "inputs": [],
+          "stateMutability": "view",
+          "type": "function",
+          "name": "getAllWaves",
+          "outputs": [
+            {
+              "internalType": "struct WavePortal.Wave[]",
+              "name": "",
+              "type": "tuple[]",
+              "components": [
+                {
+                  "internalType": "address",
+                  "name": "waver",
+                  "type": "address"
+                },
+                {
+                  "internalType": "uint256",
+                  "name": "timestamp",
+                  "type": "uint256"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "inputs": [],
+          "stateMutability": "view",
+          "type": "function",
+          "name": "getTotalWaves",
+          "outputs": [
+            {
+              "internalType": "uint256",
+              "name": "",
+              "type": "uint256"
+            }
+          ]
+        },
+        {
+          "inputs": [],
+          "stateMutability": "nonpayable",
+          "type": "function",
+          "name": "wave"
+        }
+      ],
+      "devdoc": {
+        "kind": "dev",
+        "methods": {},
+        "version": 1
+      },
+      "userdoc": {
+        "kind": "user",
+        "methods": {},
+        "version": 1
+      }
+    },
+    "settings": {
+      "remappings": [
+        ":ds-test/=lib/forge-std/lib/ds-test/src/",
+        ":forge-std/=lib/forge-std/src/"
+      ],
+      "optimizer": {
+        "enabled": true,
+        "runs": 200
+      },
+      "metadata": {
+        "bytecodeHash": "ipfs"
+      },
+      "compilationTarget": {
+        "src/WavePortal.sol": "WavePortal"
+      },
+      "libraries": {}
+    },
+    "sources": {
+      "lib/forge-std/src/console.sol": {
+        "keccak256": "0x91d5413c2434ca58fd278b6e1e79fd98d10c83931cc2596a6038eee4daeb34ba",
+        "urls": [
+          "bzz-raw://91ccea707361e48b9b7a161fe81f496b9932bc471e9c4e4e1e9c283f2453cc70",
+          "dweb:/ipfs/QmcB66sZhQ6Kz7MUHcLE78YXRUZxoZnnxZjN6yATsbB2ec"
+        ],
+        "license": "MIT"
+      },
+      "src/WavePortal.sol": {
+        "keccak256": "0xa8a933e67003866f29868fcf20c555bc4b7dde2e060dd7361cd0950da07831b6",
+        "urls": [
+          "bzz-raw://2a49906260d4aa2cac137ab6a1f4fe071be00c00456d8de8945d292034437202",
+          "dweb:/ipfs/QmPUWKEYqVkC3WFNwv4ngXDYcrFgXAbB1zYb1GzN75NK8r"
+        ],
+        "license": "UNLICENSED"
+      }
+    },
+    "version": 1
+  },
+  "ast": {
+    "absolutePath": "src/WavePortal.sol",
+    "id": 25634,
+    "exportedSymbols": {
+      "WavePortal": [
+        25633
+      ],
+      "console": [
+        17416
+      ]
+    },
+    "nodeType": "SourceUnit",
+    "src": "40:876:16",
+    "nodes": [
+      {
+        "id": 25545,
+        "nodeType": "PragmaDirective",
+        "src": "40:24:16",
+        "nodes": [],
+        "literals": [
+          "solidity",
+          "^",
+          "0.8",
+          ".17"
+        ]
+      },
+      {
+        "id": 25546,
+        "nodeType": "ImportDirective",
+        "src": "66:39:16",
+        "nodes": [],
+        "absolutePath": "lib/forge-std/src/console.sol",
+        "file": "lib/forge-std/src/console.sol",
+        "nameLocation": "-1:-1:-1",
+        "scope": 25634,
+        "sourceUnit": 17417,
+        "symbolAliases": [],
+        "unitAlias": ""
+      },
+      {
+        "id": 25633,
+        "nodeType": "ContractDefinition",
+        "src": "107:808:16",
+        "nodes": [
+          {
+            "id": 25548,
+            "nodeType": "VariableDeclaration",
+            "src": "133:18:16",
+            "nodes": [],
+            "constant": false,
+            "mutability": "mutable",
+            "name": "totalWaves",
+            "nameLocation": "141:10:16",
+            "scope": 25633,
+            "stateVariable": true,
+            "storageLocation": "default",
+            "typeDescriptions": {
+              "typeIdentifier": "t_uint256",
+              "typeString": "uint256"
+            },
+            "typeName": {
+              "id": 25547,
+              "name": "uint256",
+              "nodeType": "ElementaryTypeName",
+              "src": "133:7:16",
+              "typeDescriptions": {
+                "typeIdentifier": "t_uint256",
+                "typeString": "uint256"
+              }
+            },
+            "visibility": "internal"
+          },
+          {
+            "id": 25554,
+            "nodeType": "EventDefinition",
+            "src": "157:55:16",
+            "nodes": [],
+            "anonymous": false,
+            "eventSelector": "d4039eae27a8bdb2161befb9f8627b7c1427c2515e32d699b7dc252416e719cd",
+            "name": "NewWave",
+            "nameLocation": "163:7:16",
+            "parameters": {
+              "id": 25553,
+              "nodeType": "ParameterList",
+              "parameters": [
+                {
+                  "constant": false,
+                  "id": 25550,
+                  "indexed": true,
+                  "mutability": "mutable",
+                  "name": "from",
+                  "nameLocation": "187:4:16",
+                  "nodeType": "VariableDeclaration",
+                  "scope": 25554,
+                  "src": "171:20:16",
+                  "stateVariable": false,
+                  "storageLocation": "default",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_address",
+                    "typeString": "address"
+                  },
+                  "typeName": {
+                    "id": 25549,
+                    "name": "address",
+                    "nodeType": "ElementaryTypeName",
+                    "src": "171:7:16",
+                    "stateMutability": "nonpayable",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_address",
+                      "typeString": "address"
+                    }
+                  },
+                  "visibility": "internal"
+                },
+                {
+                  "constant": false,
+                  "id": 25552,
+                  "indexed": false,
+                  "mutability": "mutable",
+                  "name": "timestamp",
+                  "nameLocation": "201:9:16",
+                  "nodeType": "VariableDeclaration",
+                  "scope": 25554,
+                  "src": "193:17:16",
+                  "stateVariable": false,
+                  "storageLocation": "default",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_uint256",
+                    "typeString": "uint256"
+                  },
+                  "typeName": {
+                    "id": 25551,
+                    "name": "uint256",
+                    "nodeType": "ElementaryTypeName",
+                    "src": "193:7:16",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_uint256",
+                      "typeString": "uint256"
+                    }
+                  },
+                  "visibility": "internal"
+                }
+              ],
+              "src": "170:41:16"
+            }
+          },
+          {
+            "id": 25559,
+            "nodeType": "StructDefinition",
+            "src": "217:145:16",
+            "nodes": [],
+            "canonicalName": "WavePortal.Wave",
+            "members": [
+              {
+                "constant": false,
+                "id": 25556,
+                "mutability": "mutable",
+                "name": "waver",
+                "nameLocation": "247:5:16",
+                "nodeType": "VariableDeclaration",
+                "scope": 25559,
+                "src": "239:13:16",
+                "stateVariable": false,
+                "storageLocation": "default",
+                "typeDescriptions": {
+                  "typeIdentifier": "t_address",
+                  "typeString": "address"
+                },
+                "typeName": {
+                  "id": 25555,
+                  "name": "address",
+                  "nodeType": "ElementaryTypeName",
+                  "src": "239:7:16",
+                  "stateMutability": "nonpayable",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_address",
+                    "typeString": "address"
+                  }
+                },
+                "visibility": "internal"
+              },
+              {
+                "constant": false,
+                "id": 25558,
+                "mutability": "mutable",
+                "name": "timestamp",
+                "nameLocation": "308:9:16",
+                "nodeType": "VariableDeclaration",
+                "scope": 25559,
+                "src": "300:17:16",
+                "stateVariable": false,
+                "storageLocation": "default",
+                "typeDescriptions": {
+                  "typeIdentifier": "t_uint256",
+                  "typeString": "uint256"
+                },
+                "typeName": {
+                  "id": 25557,
+                  "name": "uint256",
+                  "nodeType": "ElementaryTypeName",
+                  "src": "300:7:16",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_uint256",
+                    "typeString": "uint256"
+                  }
+                },
+                "visibility": "internal"
+              }
+            ],
+            "name": "Wave",
+            "nameLocation": "224:4:16",
+            "scope": 25633,
+            "visibility": "public"
+          },
+          {
+            "id": 25563,
+            "nodeType": "VariableDeclaration",
+            "src": "367:12:16",
+            "nodes": [],
+            "constant": false,
+            "mutability": "mutable",
+            "name": "waves",
+            "nameLocation": "374:5:16",
+            "scope": 25633,
+            "stateVariable": true,
+            "storageLocation": "default",
+            "typeDescriptions": {
+              "typeIdentifier": "t_array$_t_struct$_Wave_$25559_storage_$dyn_storage",
+              "typeString": "struct WavePortal.Wave[]"
+            },
+            "typeName": {
+              "baseType": {
+                "id": 25561,
+                "nodeType": "UserDefinedTypeName",
+                "pathNode": {
+                  "id": 25560,
+                  "name": "Wave",
+                  "nameLocations": [
+                    "367:4:16"
+                  ],
+                  "nodeType": "IdentifierPath",
+                  "referencedDeclaration": 25559,
+                  "src": "367:4:16"
+                },
+                "referencedDeclaration": 25559,
+                "src": "367:4:16",
+                "typeDescriptions": {
+                  "typeIdentifier": "t_struct$_Wave_$25559_storage_ptr",
+                  "typeString": "struct WavePortal.Wave"
+                }
+              },
+              "id": 25562,
+              "nodeType": "ArrayTypeName",
+              "src": "367:6:16",
+              "typeDescriptions": {
+                "typeIdentifier": "t_array$_t_struct$_Wave_$25559_storage_$dyn_storage_ptr",
+                "typeString": "struct WavePortal.Wave[]"
+              }
+            },
+            "visibility": "internal"
+          },
+          {
+            "id": 25573,
+            "nodeType": "FunctionDefinition",
+            "src": "385:70:16",
+            "nodes": [],
+            "body": {
+              "id": 25572,
+              "nodeType": "Block",
+              "src": "399:56:16",
+              "nodes": [],
+              "statements": [
+                {
+                  "expression": {
+                    "arguments": [
+                      {
+                        "hexValue": "4920414d20534d41525420434f4e54524143542e20474d2e",
+                        "id": 25569,
+                        "isConstant": false,
+                        "isLValue": false,
+                        "isPure": true,
+                        "kind": "string",
+                        "lValueRequested": false,
+                        "nodeType": "Literal",
+                        "src": "421:26:16",
+                        "typeDescriptions": {
+                          "typeIdentifier": "t_stringliteral_bf48a35a31bdfe8c6719d1d57283c645020c6afbfb4c96e4c5114501972d18bf",
+                          "typeString": "literal_string \"I AM SMART CONTRACT. GM.\""
+                        },
+                        "value": "I AM SMART CONTRACT. GM."
+                      }
+                    ],
+                    "expression": {
+                      "argumentTypes": [
+                        {
+                          "typeIdentifier": "t_stringliteral_bf48a35a31bdfe8c6719d1d57283c645020c6afbfb4c96e4c5114501972d18bf",
+                          "typeString": "literal_string \"I AM SMART CONTRACT. GM.\""
+                        }
+                      ],
+                      "expression": {
+                        "id": 25566,
+                        "name": "console",
+                        "nodeType": "Identifier",
+                        "overloadedDeclarations": [],
+                        "referencedDeclaration": 17416,
+                        "src": "409:7:16",
+                        "typeDescriptions": {
+                          "typeIdentifier": "t_type$_t_contract$_console_$17416_$",
+                          "typeString": "type(library console)"
+                        }
+                      },
+                      "id": 25568,
+                      "isConstant": false,
+                      "isLValue": false,
+                      "isPure": false,
+                      "lValueRequested": false,
+                      "memberLocation": "417:3:16",
+                      "memberName": "log",
+                      "nodeType": "MemberAccess",
+                      "referencedDeclaration": 9947,
+                      "src": "409:11:16",
+                      "typeDescriptions": {
+                        "typeIdentifier": "t_function_internal_view$_t_string_memory_ptr_$returns$__$",
+                        "typeString": "function (string memory) view"
+                      }
+                    },
+                    "id": 25570,
+                    "isConstant": false,
+                    "isLValue": false,
+                    "isPure": false,
+                    "kind": "functionCall",
+                    "lValueRequested": false,
+                    "nameLocations": [],
+                    "names": [],
+                    "nodeType": "FunctionCall",
+                    "src": "409:39:16",
+                    "tryCall": false,
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_tuple$__$",
+                      "typeString": "tuple()"
+                    }
+                  },
+                  "id": 25571,
+                  "nodeType": "ExpressionStatement",
+                  "src": "409:39:16"
+                }
+              ]
+            },
+            "implemented": true,
+            "kind": "constructor",
+            "modifiers": [],
+            "name": "",
+            "nameLocation": "-1:-1:-1",
+            "parameters": {
+              "id": 25564,
+              "nodeType": "ParameterList",
+              "parameters": [],
+              "src": "396:2:16"
+            },
+            "returnParameters": {
+              "id": 25565,
+              "nodeType": "ParameterList",
+              "parameters": [],
+              "src": "399:0:16"
+            },
+            "scope": 25633,
+            "stateMutability": "nonpayable",
+            "virtual": false,
+            "visibility": "public"
+          },
+          {
+            "id": 25607,
+            "nodeType": "FunctionDefinition",
+            "src": "460:206:16",
+            "nodes": [],
+            "body": {
+              "id": 25606,
+              "nodeType": "Block",
+              "src": "483:183:16",
+              "nodes": [],
+              "statements": [
+                {
+                  "expression": {
+                    "id": 25578,
+                    "isConstant": false,
+                    "isLValue": false,
+                    "isPure": false,
+                    "lValueRequested": false,
+                    "leftHandSide": {
+                      "id": 25576,
+                      "name": "totalWaves",
+                      "nodeType": "Identifier",
+                      "overloadedDeclarations": [],
+                      "referencedDeclaration": 25548,
+                      "src": "493:10:16",
+                      "typeDescriptions": {
+                        "typeIdentifier": "t_uint256",
+                        "typeString": "uint256"
+                      }
+                    },
+                    "nodeType": "Assignment",
+                    "operator": "+=",
+                    "rightHandSide": {
+                      "hexValue": "31",
+                      "id": 25577,
+                      "isConstant": false,
+                      "isLValue": false,
+                      "isPure": true,
+                      "kind": "number",
+                      "lValueRequested": false,
+                      "nodeType": "Literal",
+                      "src": "507:1:16",
+                      "typeDescriptions": {
+                        "typeIdentifier": "t_rational_1_by_1",
+                        "typeString": "int_const 1"
+                      },
+                      "value": "1"
+                    },
+                    "src": "493:15:16",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_uint256",
+                      "typeString": "uint256"
+                    }
+                  },
+                  "id": 25579,
+                  "nodeType": "ExpressionStatement",
+                  "src": "493:15:16"
+                },
+                {
+                  "expression": {
+                    "arguments": [
+                      {
+                        "hexValue": "2573207761766564",
+                        "id": 25583,
+                        "isConstant": false,
+                        "isLValue": false,
+                        "isPure": true,
+                        "kind": "string",
+                        "lValueRequested": false,
+                        "nodeType": "Literal",
+                        "src": "530:10:16",
+                        "typeDescriptions": {
+                          "typeIdentifier": "t_stringliteral_58b75f7c57bdf9943dcf7ed6235ac35919ca617557aa07e5d9d5af94ea81115e",
+                          "typeString": "literal_string \"%s waved\""
+                        },
+                        "value": "%s waved"
+                      },
+                      {
+                        "expression": {
+                          "id": 25584,
+                          "name": "msg",
+                          "nodeType": "Identifier",
+                          "overloadedDeclarations": [],
+                          "referencedDeclaration": -15,
+                          "src": "542:3:16",
+                          "typeDescriptions": {
+                            "typeIdentifier": "t_magic_message",
+                            "typeString": "msg"
+                          }
+                        },
+                        "id": 25585,
+                        "isConstant": false,
+                        "isLValue": false,
+                        "isPure": false,
+                        "lValueRequested": false,
+                        "memberLocation": "546:6:16",
+                        "memberName": "sender",
+                        "nodeType": "MemberAccess",
+                        "src": "542:10:16",
+                        "typeDescriptions": {
+                          "typeIdentifier": "t_address",
+                          "typeString": "address"
+                        }
+                      }
+                    ],
+                    "expression": {
+                      "argumentTypes": [
+                        {
+                          "typeIdentifier": "t_stringliteral_58b75f7c57bdf9943dcf7ed6235ac35919ca617557aa07e5d9d5af94ea81115e",
+                          "typeString": "literal_string \"%s waved\""
+                        },
+                        {
+                          "typeIdentifier": "t_address",
+                          "typeString": "address"
+                        }
+                      ],
+                      "expression": {
+                        "id": 25580,
+                        "name": "console",
+                        "nodeType": "Identifier",
+                        "overloadedDeclarations": [],
+                        "referencedDeclaration": 17416,
+                        "src": "518:7:16",
+                        "typeDescriptions": {
+                          "typeIdentifier": "t_type$_t_contract$_console_$17416_$",
+                          "typeString": "type(library console)"
+                        }
+                      },
+                      "id": 25582,
+                      "isConstant": false,
+                      "isLValue": false,
+                      "isPure": false,
+                      "lValueRequested": false,
+                      "memberLocation": "526:3:16",
+                      "memberName": "log",
+                      "nodeType": "MemberAccess",
+                      "referencedDeclaration": 10111,
+                      "src": "518:11:16",
+                      "typeDescriptions": {
+                        "typeIdentifier": "t_function_internal_view$_t_string_memory_ptr_$_t_address_$returns$__$",
+                        "typeString": "function (string memory,address) view"
+                      }
+                    },
+                    "id": 25586,
+                    "isConstant": false,
+                    "isLValue": false,
+                    "isPure": false,
+                    "kind": "functionCall",
+                    "lValueRequested": false,
+                    "nameLocations": [],
+                    "names": [],
+                    "nodeType": "FunctionCall",
+                    "src": "518:35:16",
+                    "tryCall": false,
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_tuple$__$",
+                      "typeString": "tuple()"
+                    }
+                  },
+                  "id": 25587,
+                  "nodeType": "ExpressionStatement",
+                  "src": "518:35:16"
+                },
+                {
+                  "expression": {
+                    "arguments": [
+                      {
+                        "arguments": [
+                          {
+                            "expression": {
+                              "id": 25592,
+                              "name": "msg",
+                              "nodeType": "Identifier",
+                              "overloadedDeclarations": [],
+                              "referencedDeclaration": -15,
+                              "src": "579:3:16",
+                              "typeDescriptions": {
+                                "typeIdentifier": "t_magic_message",
+                                "typeString": "msg"
+                              }
+                            },
+                            "id": 25593,
+                            "isConstant": false,
+                            "isLValue": false,
+                            "isPure": false,
+                            "lValueRequested": false,
+                            "memberLocation": "583:6:16",
+                            "memberName": "sender",
+                            "nodeType": "MemberAccess",
+                            "src": "579:10:16",
+                            "typeDescriptions": {
+                              "typeIdentifier": "t_address",
+                              "typeString": "address"
+                            }
+                          },
+                          {
+                            "expression": {
+                              "id": 25594,
+                              "name": "block",
+                              "nodeType": "Identifier",
+                              "overloadedDeclarations": [],
+                              "referencedDeclaration": -4,
+                              "src": "591:5:16",
+                              "typeDescriptions": {
+                                "typeIdentifier": "t_magic_block",
+                                "typeString": "block"
+                              }
+                            },
+                            "id": 25595,
+                            "isConstant": false,
+                            "isLValue": false,
+                            "isPure": false,
+                            "lValueRequested": false,
+                            "memberLocation": "597:9:16",
+                            "memberName": "timestamp",
+                            "nodeType": "MemberAccess",
+                            "src": "591:15:16",
+                            "typeDescriptions": {
+                              "typeIdentifier": "t_uint256",
+                              "typeString": "uint256"
+                            }
+                          }
+                        ],
+                        "expression": {
+                          "argumentTypes": [
+                            {
+                              "typeIdentifier": "t_address",
+                              "typeString": "address"
+                            },
+                            {
+                              "typeIdentifier": "t_uint256",
+                              "typeString": "uint256"
+                            }
+                          ],
+                          "id": 25591,
+                          "name": "Wave",
+                          "nodeType": "Identifier",
+                          "overloadedDeclarations": [],
+                          "referencedDeclaration": 25559,
+                          "src": "574:4:16",
+                          "typeDescriptions": {
+                            "typeIdentifier": "t_type$_t_struct$_Wave_$25559_storage_ptr_$",
+                            "typeString": "type(struct WavePortal.Wave storage pointer)"
+                          }
+                        },
+                        "id": 25596,
+                        "isConstant": false,
+                        "isLValue": false,
+                        "isPure": false,
+                        "kind": "structConstructorCall",
+                        "lValueRequested": false,
+                        "nameLocations": [],
+                        "names": [],
+                        "nodeType": "FunctionCall",
+                        "src": "574:33:16",
+                        "tryCall": false,
+                        "typeDescriptions": {
+                          "typeIdentifier": "t_struct$_Wave_$25559_memory_ptr",
+                          "typeString": "struct WavePortal.Wave memory"
+                        }
+                      }
+                    ],
+                    "expression": {
+                      "argumentTypes": [
+                        {
+                          "typeIdentifier": "t_struct$_Wave_$25559_memory_ptr",
+                          "typeString": "struct WavePortal.Wave memory"
+                        }
+                      ],
+                      "expression": {
+                        "id": 25588,
+                        "name": "waves",
+                        "nodeType": "Identifier",
+                        "overloadedDeclarations": [],
+                        "referencedDeclaration": 25563,
+                        "src": "563:5:16",
+                        "typeDescriptions": {
+                          "typeIdentifier": "t_array$_t_struct$_Wave_$25559_storage_$dyn_storage",
+                          "typeString": "struct WavePortal.Wave storage ref[] storage ref"
+                        }
+                      },
+                      "id": 25590,
+                      "isConstant": false,
+                      "isLValue": false,
+                      "isPure": false,
+                      "lValueRequested": false,
+                      "memberLocation": "569:4:16",
+                      "memberName": "push",
+                      "nodeType": "MemberAccess",
+                      "src": "563:10:16",
+                      "typeDescriptions": {
+                        "typeIdentifier": "t_function_arraypush_nonpayable$_t_array$_t_struct$_Wave_$25559_storage_$dyn_storage_ptr_$_t_struct$_Wave_$25559_storage_$returns$__$bound_to$_t_array$_t_struct$_Wave_$25559_storage_$dyn_storage_ptr_$",
+                        "typeString": "function (struct WavePortal.Wave storage ref[] storage pointer,struct WavePortal.Wave storage ref)"
+                      }
+                    },
+                    "id": 25597,
+                    "isConstant": false,
+                    "isLValue": false,
+                    "isPure": false,
+                    "kind": "functionCall",
+                    "lValueRequested": false,
+                    "nameLocations": [],
+                    "names": [],
+                    "nodeType": "FunctionCall",
+                    "src": "563:45:16",
+                    "tryCall": false,
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_tuple$__$",
+                      "typeString": "tuple()"
+                    }
+                  },
+                  "id": 25598,
+                  "nodeType": "ExpressionStatement",
+                  "src": "563:45:16"
+                },
+                {
+                  "eventCall": {
+                    "arguments": [
+                      {
+                        "expression": {
+                          "id": 25600,
+                          "name": "msg",
+                          "nodeType": "Identifier",
+                          "overloadedDeclarations": [],
+                          "referencedDeclaration": -15,
+                          "src": "631:3:16",
+                          "typeDescriptions": {
+                            "typeIdentifier": "t_magic_message",
+                            "typeString": "msg"
+                          }
+                        },
+                        "id": 25601,
+                        "isConstant": false,
+                        "isLValue": false,
+                        "isPure": false,
+                        "lValueRequested": false,
+                        "memberLocation": "635:6:16",
+                        "memberName": "sender",
+                        "nodeType": "MemberAccess",
+                        "src": "631:10:16",
+                        "typeDescriptions": {
+                          "typeIdentifier": "t_address",
+                          "typeString": "address"
+                        }
+                      },
+                      {
+                        "expression": {
+                          "id": 25602,
+                          "name": "block",
+                          "nodeType": "Identifier",
+                          "overloadedDeclarations": [],
+                          "referencedDeclaration": -4,
+                          "src": "643:5:16",
+                          "typeDescriptions": {
+                            "typeIdentifier": "t_magic_block",
+                            "typeString": "block"
+                          }
+                        },
+                        "id": 25603,
+                        "isConstant": false,
+                        "isLValue": false,
+                        "isPure": false,
+                        "lValueRequested": false,
+                        "memberLocation": "649:9:16",
+                        "memberName": "timestamp",
+                        "nodeType": "MemberAccess",
+                        "src": "643:15:16",
+                        "typeDescriptions": {
+                          "typeIdentifier": "t_uint256",
+                          "typeString": "uint256"
+                        }
+                      }
+                    ],
+                    "expression": {
+                      "argumentTypes": [
+                        {
+                          "typeIdentifier": "t_address",
+                          "typeString": "address"
+                        },
+                        {
+                          "typeIdentifier": "t_uint256",
+                          "typeString": "uint256"
+                        }
+                      ],
+                      "id": 25599,
+                      "name": "NewWave",
+                      "nodeType": "Identifier",
+                      "overloadedDeclarations": [],
+                      "referencedDeclaration": 25554,
+                      "src": "623:7:16",
+                      "typeDescriptions": {
+                        "typeIdentifier": "t_function_event_nonpayable$_t_address_$_t_uint256_$returns$__$",
+                        "typeString": "function (address,uint256)"
+                      }
+                    },
+                    "id": 25604,
+                    "isConstant": false,
+                    "isLValue": false,
+                    "isPure": false,
+                    "kind": "functionCall",
+                    "lValueRequested": false,
+                    "nameLocations": [],
+                    "names": [],
+                    "nodeType": "FunctionCall",
+                    "src": "623:36:16",
+                    "tryCall": false,
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_tuple$__$",
+                      "typeString": "tuple()"
+                    }
+                  },
+                  "id": 25605,
+                  "nodeType": "EmitStatement",
+                  "src": "618:41:16"
+                }
+              ]
+            },
+            "functionSelector": "6fe15b44",
+            "implemented": true,
+            "kind": "function",
+            "modifiers": [],
+            "name": "wave",
+            "nameLocation": "469:4:16",
+            "parameters": {
+              "id": 25574,
+              "nodeType": "ParameterList",
+              "parameters": [],
+              "src": "473:2:16"
+            },
+            "returnParameters": {
+              "id": 25575,
+              "nodeType": "ParameterList",
+              "parameters": [],
+              "src": "483:0:16"
+            },
+            "scope": 25633,
+            "stateMutability": "nonpayable",
+            "virtual": false,
+            "visibility": "public"
+          },
+          {
+            "id": 25617,
+            "nodeType": "FunctionDefinition",
+            "src": "671:88:16",
+            "nodes": [],
+            "body": {
+              "id": 25616,
+              "nodeType": "Block",
+              "src": "730:29:16",
+              "nodes": [],
+              "statements": [
+                {
+                  "expression": {
+                    "id": 25614,
+                    "name": "waves",
+                    "nodeType": "Identifier",
+                    "overloadedDeclarations": [],
+                    "referencedDeclaration": 25563,
+                    "src": "747:5:16",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_array$_t_struct$_Wave_$25559_storage_$dyn_storage",
+                      "typeString": "struct WavePortal.Wave storage ref[] storage ref"
+                    }
+                  },
+                  "functionReturnParameters": 25613,
+                  "id": 25615,
+                  "nodeType": "Return",
+                  "src": "740:12:16"
+                }
+              ]
+            },
+            "functionSelector": "bd43a908",
+            "implemented": true,
+            "kind": "function",
+            "modifiers": [],
+            "name": "getAllWaves",
+            "nameLocation": "680:11:16",
+            "parameters": {
+              "id": 25608,
+              "nodeType": "ParameterList",
+              "parameters": [],
+              "src": "691:2:16"
+            },
+            "returnParameters": {
+              "id": 25613,
+              "nodeType": "ParameterList",
+              "parameters": [
+                {
+                  "constant": false,
+                  "id": 25612,
+                  "mutability": "mutable",
+                  "name": "",
+                  "nameLocation": "-1:-1:-1",
+                  "nodeType": "VariableDeclaration",
+                  "scope": 25617,
+                  "src": "715:13:16",
+                  "stateVariable": false,
+                  "storageLocation": "memory",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_array$_t_struct$_Wave_$25559_memory_ptr_$dyn_memory_ptr",
+                    "typeString": "struct WavePortal.Wave[]"
+                  },
+                  "typeName": {
+                    "baseType": {
+                      "id": 25610,
+                      "nodeType": "UserDefinedTypeName",
+                      "pathNode": {
+                        "id": 25609,
+                        "name": "Wave",
+                        "nameLocations": [
+                          "715:4:16"
+                        ],
+                        "nodeType": "IdentifierPath",
+                        "referencedDeclaration": 25559,
+                        "src": "715:4:16"
+                      },
+                      "referencedDeclaration": 25559,
+                      "src": "715:4:16",
+                      "typeDescriptions": {
+                        "typeIdentifier": "t_struct$_Wave_$25559_storage_ptr",
+                        "typeString": "struct WavePortal.Wave"
+                      }
+                    },
+                    "id": 25611,
+                    "nodeType": "ArrayTypeName",
+                    "src": "715:6:16",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_array$_t_struct$_Wave_$25559_storage_$dyn_storage_ptr",
+                      "typeString": "struct WavePortal.Wave[]"
+                    }
+                  },
+                  "visibility": "internal"
+                }
+              ],
+              "src": "714:15:16"
+            },
+            "scope": 25633,
+            "stateMutability": "view",
+            "virtual": false,
+            "visibility": "public"
+          },
+          {
+            "id": 25632,
+            "nodeType": "FunctionDefinition",
+            "src": "764:149:16",
+            "nodes": [],
+            "body": {
+              "id": 25631,
+              "nodeType": "Block",
+              "src": "819:94:16",
+              "nodes": [],
+              "statements": [
+                {
+                  "expression": {
+                    "arguments": [
+                      {
+                        "hexValue": "5765206861766520256420746f74616c20776176657321",
+                        "id": 25625,
+                        "isConstant": false,
+                        "isLValue": false,
+                        "isPure": true,
+                        "kind": "string",
+                        "lValueRequested": false,
+                        "nodeType": "Literal",
+                        "src": "841:25:16",
+                        "typeDescriptions": {
+                          "typeIdentifier": "t_stringliteral_863ad3ce73bc5de36878d11a5464e7b17b05dede85c460be1aa71aebd4b304e3",
+                          "typeString": "literal_string \"We have %d total waves!\""
+                        },
+                        "value": "We have %d total waves!"
+                      },
+                      {
+                        "id": 25626,
+                        "name": "totalWaves",
+                        "nodeType": "Identifier",
+                        "overloadedDeclarations": [],
+                        "referencedDeclaration": 25548,
+                        "src": "868:10:16",
+                        "typeDescriptions": {
+                          "typeIdentifier": "t_uint256",
+                          "typeString": "uint256"
+                        }
+                      }
+                    ],
+                    "expression": {
+                      "argumentTypes": [
+                        {
+                          "typeIdentifier": "t_stringliteral_863ad3ce73bc5de36878d11a5464e7b17b05dede85c460be1aa71aebd4b304e3",
+                          "typeString": "literal_string \"We have %d total waves!\""
+                        },
+                        {
+                          "typeIdentifier": "t_uint256",
+                          "typeString": "uint256"
+                        }
+                      ],
+                      "expression": {
+                        "id": 25622,
+                        "name": "console",
+                        "nodeType": "Identifier",
+                        "overloadedDeclarations": [],
+                        "referencedDeclaration": 17416,
+                        "src": "829:7:16",
+                        "typeDescriptions": {
+                          "typeIdentifier": "t_type$_t_contract$_console_$17416_$",
+                          "typeString": "type(library console)"
+                        }
+                      },
+                      "id": 25624,
+                      "isConstant": false,
+                      "isLValue": false,
+                      "isPure": false,
+                      "lValueRequested": false,
+                      "memberLocation": "837:3:16",
+                      "memberName": "log",
+                      "nodeType": "MemberAccess",
+                      "referencedDeclaration": 10060,
+                      "src": "829:11:16",
+                      "typeDescriptions": {
+                        "typeIdentifier": "t_function_internal_view$_t_string_memory_ptr_$_t_uint256_$returns$__$",
+                        "typeString": "function (string memory,uint256) view"
+                      }
+                    },
+                    "id": 25627,
+                    "isConstant": false,
+                    "isLValue": false,
+                    "isPure": false,
+                    "kind": "functionCall",
+                    "lValueRequested": false,
+                    "nameLocations": [],
+                    "names": [],
+                    "nodeType": "FunctionCall",
+                    "src": "829:50:16",
+                    "tryCall": false,
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_tuple$__$",
+                      "typeString": "tuple()"
+                    }
+                  },
+                  "id": 25628,
+                  "nodeType": "ExpressionStatement",
+                  "src": "829:50:16"
+                },
+                {
+                  "expression": {
+                    "id": 25629,
+                    "name": "totalWaves",
+                    "nodeType": "Identifier",
+                    "overloadedDeclarations": [],
+                    "referencedDeclaration": 25548,
+                    "src": "896:10:16",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_uint256",
+                      "typeString": "uint256"
+                    }
+                  },
+                  "functionReturnParameters": 25621,
+                  "id": 25630,
+                  "nodeType": "Return",
+                  "src": "889:17:16"
+                }
+              ]
+            },
+            "functionSelector": "9a2cdc08",
+            "implemented": true,
+            "kind": "function",
+            "modifiers": [],
+            "name": "getTotalWaves",
+            "nameLocation": "773:13:16",
+            "parameters": {
+              "id": 25618,
+              "nodeType": "ParameterList",
+              "parameters": [],
+              "src": "786:2:16"
+            },
+            "returnParameters": {
+              "id": 25621,
+              "nodeType": "ParameterList",
+              "parameters": [
+                {
+                  "constant": false,
+                  "id": 25620,
+                  "mutability": "mutable",
+                  "name": "",
+                  "nameLocation": "-1:-1:-1",
+                  "nodeType": "VariableDeclaration",
+                  "scope": 25632,
+                  "src": "810:7:16",
+                  "stateVariable": false,
+                  "storageLocation": "default",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_uint256",
+                    "typeString": "uint256"
+                  },
+                  "typeName": {
+                    "id": 25619,
+                    "name": "uint256",
+                    "nodeType": "ElementaryTypeName",
+                    "src": "810:7:16",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_uint256",
+                      "typeString": "uint256"
+                    }
+                  },
+                  "visibility": "internal"
+                }
+              ],
+              "src": "809:9:16"
+            },
+            "scope": 25633,
+            "stateMutability": "view",
+            "virtual": false,
+            "visibility": "public"
+          }
+        ],
+        "abstract": false,
+        "baseContracts": [],
+        "canonicalName": "WavePortal",
+        "contractDependencies": [],
+        "contractKind": "contract",
+        "fullyImplemented": true,
+        "linearizedBaseContracts": [
+          25633
+        ],
+        "name": "WavePortal",
+        "nameLocation": "116:10:16",
+        "scope": 25634,
+        "usedErrors": []
+      }
+    ],
+    "license": "UNLICENSED"
+  },
+  "id": 16
+}
