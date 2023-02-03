@@ -18,7 +18,7 @@ Say Moo is a smart contract demo on a [sovereign rollup](https://celestia.org/gl
 
 This allows users to securely create and share Moos on the blockchain without the need for a centralized server or authority.
 
-This application is deployed on IPFS and can be accessed through ENS ' target="_blank">([buildmarket.eth](https://buildmarket.eth.limo)) or [DNS](https://gmportal.xyz). Even the moo is on IPFS lol. Read more [here 🛸](https://mirror.xyz/joshcstein.eth/UbInedh4ToAAfsDklzSPb3R1_hVSHIdE97hvxIWYlOo)
+This application is deployed on IPFS and can be accessed through ENS ([saymoo.eth](https://saymoo.eth.limo)) or [DNS](https://gmportal.xyz). Even the moo is on IPFS lol. Read more [here 🛸](https://mirror.xyz/joshcstein.eth/UbInedh4ToAAfsDklzSPb3R1_hVSHIdE97hvxIWYlOo)
 
 ## Developing this site yourself
 
