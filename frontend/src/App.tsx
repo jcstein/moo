@@ -84,7 +84,7 @@ function App() {
         minHeight="90vh"
       >
       <VStack p="8" maxWidth="800px">
-        <Heading size="2xl" mb="5">🐮 Say Moo</Heading>
+        <Heading size="2xl" mb="5">Say Moo</Heading>
         {!address ? (<div>
         <Heading size="md" pb="3">GMoo (Welcome)</Heading>
         <Text pb="3">First, DM me at{' '}<Link color="purple.500" href='https://twitter.com/JoshCStein' target="_blank">@JoshCStein</Link>{' '}or{' '}<Link color="purple.500" href='https://www.lensfrens.xyz/joshcs.lens' target="_blank">joshcs.lens</Link>{' '}with your Ethereum wallet address to receive EMT tokens.</Text>
@@ -92,8 +92,8 @@ function App() {
         {!address ? (<div><br/><Heading size="md" pb="3">Connect your Ethereum wallet to moo ✨</Heading></div> ) : null}
         <ConnectButton />
         {address ? (
-        <VStack>
-          <Image src='../1f42e.svg' alt="cow" />
+        <VStack minW="100px">
+          <Image py="20" src='../1f42e.svg' alt="cow" />
           {errorMessage && <div style={{ padding: '5px' }}>{errorMessage}</div>}
           <Button onClick={wave} colorScheme="green">Say Moo</Button>
           {!errorMessage && loading ? <div style={{padding: '10px'}}>Transaction processing...</div> : null}
