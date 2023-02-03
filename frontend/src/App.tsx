@@ -93,7 +93,9 @@ function App() {
         <ConnectButton />
         {address ? (
         <VStack minW="100px">
-          <Image py="20" src='../1f42e.svg' alt="cow" />
+          {/* <Link onClick={wave}> */}
+            <Image py="20" src='../1f42e.svg' alt="cow" />
+          {/* </Link> */}
           {errorMessage && <div style={{ padding: '5px' }}>{errorMessage}</div>}
           <Button onClick={wave} colorScheme="green">Say Moo</Button>
           {!errorMessage && loading ? <div style={{padding: '10px'}}>Transaction processing...</div> : null}
